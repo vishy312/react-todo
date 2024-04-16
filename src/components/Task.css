@@ -1,0 +1,39 @@
+.task-card{
+    width: 50vw;
+    height: 80px;
+    display: flex;
+    border: 0.1px solid rgb(170, 169, 169);
+    justify-content: space-between;
+    padding-inline: 2em;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+h3{
+    align-self: flex-start;
+}
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5em;
+    align-self:flex-end;
+}
+
+.action{
+    display: flex;
+    gap: 0.4em;
+    align-items: center;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.done{
+    color: rgb(67, 182, 67);
+}
+.undo{
+    color: rgba(250, 155, 13, 0.993);
+}
+.delete{
+    color: rgb(216, 3, 3);
+}

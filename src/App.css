@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.input-task{
+  margin-bottom: 2em;
+  border: 1px solid grey;
+  padding: 1em 2em;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 85%;
+  
+}
+
+.input-task:focus{
+  outline: none;
+}
+
+.tasks{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.new-task{
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-task-btn{
+  width: 10%;
+  height: 100%
+}
+
+.delete-marked{
+  color: red;
+  font-size: small;
+  text-align: end;
+  text-decoration: underline;
+  cursor: pointer;
+}
